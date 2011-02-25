@@ -1,5 +1,5 @@
 #!/bin/bash
-# Trigger a build for the testproject
+# Trigger a build for the testproject 
 cd $FWROOT
 . environ
 cd bld
