@@ -15,7 +15,6 @@ namespace testprojectTests
 		[Test]
 		public void TestCase()
 		{
-			//
 			Assert.AreEqual(8, MainClass.Number());
 		}
 	}
