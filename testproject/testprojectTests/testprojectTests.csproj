@@ -31,21 +31,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="nunit.core, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
-      <Package>/home/eberhard/repogit/Calgary/WW/Output_x86_64/Debug/nunit.core.dll</Package>
+    <Reference Include="nunit.framework, Version=2.5.8.10295, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\nunit\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
-      <Package>/home/eberhard/repogit/Calgary/WW/Output_x86_64/Debug/nunit.framework.dll</Package>
+    <Reference Include="testproject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output_\Debug\testproject.exe</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\testproject.csproj">
-      <Project>{CA2F8825-BF7C-4C2F-A2E9-C4012C7A1D31}</Project>
-      <Name>testproject</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
