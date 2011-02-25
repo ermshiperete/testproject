@@ -1,5 +1,5 @@
 #!/bin/bash
-# Trigger a build for the testproject 
+# Trigger a build for the testproject. This is run on Jenkins.
 cd $FWROOT
 . environ
 cd bld
