@@ -12,7 +12,7 @@ namespace testproject
 	{
 		public static int Number()
 		{
-			return 6;
+			return 6;l
 		}
 		public static void Main(string[] args)
 		{
