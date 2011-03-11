@@ -22,7 +22,7 @@ namespace testproject
 
 		public static string Project
 		{
-			get {return "Project name"; }
+			get {return "This is the name of the project"; }
 		}
 		public static void Main(string[] args)
 		{
