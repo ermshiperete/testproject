@@ -19,6 +19,11 @@ namespace testproject
 		{
 			get { return "TestProject"; }
 		}
+
+		public static string Project
+		{
+			get {return "Project name"; }
+		}
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
