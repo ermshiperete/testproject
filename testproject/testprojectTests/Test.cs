@@ -17,6 +17,12 @@ namespace testprojectTests
 		{
 			Assert.AreEqual(8, MainClass.Number());
 		}
+
+		[Test]
+		public void Name()
+		{
+			Assert.AreSame("TestProject", MainClass.Name);
+		}
 	}
 }
 
