@@ -7,6 +7,7 @@
 using System;
 using NUnit.Framework;
 using testproject;
+
 namespace testprojectTests
 {
 	[TestFixture]
@@ -16,6 +17,18 @@ namespace testprojectTests
 		public void TestCase()
 		{
 			Assert.AreEqual(8, MainClass.Number());
+		}
+
+		[Test]
+		public void Name()
+		{
+			Assert.AreEqual("TestProject", MainClass.Name);
+		}
+
+		[Test]
+		public void Description()
+		{
+			Assert.AreEqual("Project description", MainClass.Description);
 		}
 	}
 }

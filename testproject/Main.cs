@@ -8,12 +8,29 @@ using System;
 
 namespace testproject
 {
+	// Change B
 	class MainClass
 	{
 		public static int Number()
 		{
 			return 8;
 		}
+
+		public static string Name
+		{
+			get { return "TestProject"; }
+		}
+
+		public static string Project
+		{
+			get { return "This is the name of the project"; }
+		}
+
+		public static string Description
+		{
+			get { return "Project description";}
+		}
+
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
