@@ -27,7 +27,7 @@ namespace testproject
 
 		public static string Description
 		{
-			get { throw new NotImplementedException();}
+			get { return "Project description";}
 		}
 
 		public static void Main(string[] args)
