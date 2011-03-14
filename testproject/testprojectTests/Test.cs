@@ -7,6 +7,7 @@
 using System;
 using NUnit.Framework;
 using testproject;
+
 namespace testprojectTests
 {
 	[TestFixture]
