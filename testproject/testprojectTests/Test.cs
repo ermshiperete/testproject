@@ -30,7 +30,6 @@ namespace testprojectTests
 		{
 			Assert.AreEqual("Project description", MainClass.Description);
 		}
-		//Change A
 	}
 }
 
