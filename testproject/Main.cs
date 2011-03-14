@@ -22,8 +22,14 @@ namespace testproject
 
 		public static string Project
 		{
-			get {return "This is the name of the project"; }
+			get { return "This is the name of the project"; }
 		}
+
+		public static string Description
+		{
+			get { throw new NotImplementedException();}
+		}
+
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");

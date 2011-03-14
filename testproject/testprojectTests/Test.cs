@@ -21,7 +21,13 @@ namespace testprojectTests
 		[Test]
 		public void Name()
 		{
-			Assert.AreSame("TestProject", MainClass.Name);
+			Assert.AreEqual("TestProject", MainClass.Name);
+		}
+
+		[Test]
+		public void Description()
+		{
+			Assert.AreEqual("Project description", MainClass.Description);
 		}
 	}
 }
