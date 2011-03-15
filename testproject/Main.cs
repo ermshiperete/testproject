@@ -12,7 +12,7 @@ namespace testproject
 	{
 		public static int Number()
 		{
-			return 8;
+			return 9;
 		}
 
 		public static string Name
