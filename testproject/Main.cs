@@ -6,7 +6,6 @@
 // </copyright>
 using System;
 
-// Comment
 namespace testproject
 {
 	class MainClass
