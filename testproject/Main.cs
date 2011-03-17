@@ -8,6 +8,9 @@ using System;
 
 namespace testproject
 {
+	/// <summary>
+	/// Comment for MainClass
+	/// </summary>
 	class MainClass
 	{
 		public static int Number()
