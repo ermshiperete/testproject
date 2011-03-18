@@ -9,7 +9,7 @@ using System;
 namespace testproject
 {
 	/// <summary>
-	/// Main class
+	/// Main class for testing
 	/// </summary>
 	class MainClass
 	{
