@@ -13,6 +13,9 @@ namespace testproject
 	/// </summary>
 	class MainClass
 	{
+		/// <summary>
+		/// Returns a arbitrary number
+		/// </summary>
 		public static int Number()
 		{
 			return 7;
