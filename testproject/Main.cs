@@ -9,7 +9,7 @@ using System;
 namespace testproject
 {
 	/// <summary>
-	/// Comment for MainClass
+	/// Main class for testing
 	/// </summary>
 	class MainClass
 	{
@@ -21,11 +21,17 @@ namespace testproject
 			return 7;
 		}
 
+		/// <summary>
+		/// Gets the name of the project
+		/// </summary>
 		public static string Name
 		{
 			get { return "TestProject"; }
 		}
 
+		/// <summary>
+		/// Gets the description for the project
+		/// </summary>
 		public static string Project
 		{
 			get { return "This is the name of the project"; }
