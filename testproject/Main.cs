@@ -8,18 +8,31 @@ using System;
 
 namespace testproject
 {
+	/// <summary>
+	/// Main class for testing
+	/// </summary>
 	class MainClass
 	{
+		/// <summary>
+		/// Returns a arbitrary number
+		/// </summary>
 		public static int Number()
 		{
+			// bugfix
 			return 7;
 		}
 
+		/// <summary>
+		/// Gets the name of the project
+		/// </summary>
 		public static string Name
 		{
 			get { return "TestProject"; }
 		}
 
+		/// <summary>
+		/// Gets the description for the project
+		/// </summary>
 		public static string Project
 		{
 			get { return "This is the name of the project"; }
