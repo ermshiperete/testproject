@@ -18,6 +18,7 @@ namespace testproject
 		/// </summary>
 		public static int Number()
 		{
+			// bugfix
 			return 7;
 		}
 
