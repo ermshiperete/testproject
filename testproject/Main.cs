@@ -9,6 +9,8 @@ using System;
 namespace testproject
 {
 // Some comment
+// more
+// comment
 	/// <summary>
 	/// Main class for testing
 	/// </summary>
