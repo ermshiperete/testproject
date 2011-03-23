@@ -9,6 +9,7 @@ using System;
 // Comment
 namespace testproject
 {
+// a comment is missing here.
 	class MainClass
 	{
 		public static int Number()
