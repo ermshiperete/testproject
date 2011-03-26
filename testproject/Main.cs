@@ -44,6 +44,11 @@ namespace testproject
 			get { return "Project description";}
 		}
 
+		public static int Untested
+		{
+			get { return 1; }
+		}
+		
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
