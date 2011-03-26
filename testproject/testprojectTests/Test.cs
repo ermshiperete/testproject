@@ -20,6 +20,12 @@ namespace testprojectTests
 		}
 
 		[Test]
+		public void Number()
+		{
+			Assert.AreEqual(7, MainClass.Number());
+		}
+
+		[Test]
 		public void Name()
 		{
 			Assert.AreEqual("TestProject", MainClass.Name);
