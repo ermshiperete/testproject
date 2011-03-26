@@ -20,8 +20,7 @@ namespace testproject
 		/// </summary>
 		public static int Number()
 		{
-			// bugfix
-			return 7;
+			return 8;
 		}
 
 		/// <summary>
