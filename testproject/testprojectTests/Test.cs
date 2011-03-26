@@ -36,6 +36,12 @@ namespace testprojectTests
 		{
 			Assert.AreEqual("Project description", MainClass.Description);
 		}
+
+		[Test]
+		public void MissingTest()
+		{
+			Assert.AreEqual(1, MainClass.Untested);
+		}
 	}
 }
 
