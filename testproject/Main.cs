@@ -56,7 +56,7 @@ namespace testproject
 
 		public static int Three
 		{
-			get { return 1; }
+			get { return 3; }
 		}
 		
 		public static void Main(string[] args)
