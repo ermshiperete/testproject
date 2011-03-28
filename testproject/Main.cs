@@ -46,7 +46,12 @@ namespace testproject
 
 		public static int Untested
 		{
-			get { return 2; }
+			get { return 1; }
+		}
+
+		public static int Some
+		{
+			get { return 1; }
 		}
 		
 		public static void Main(string[] args)
