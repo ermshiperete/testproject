@@ -46,7 +46,7 @@ namespace testprojectTests
 		[Test]
 		public void SomeTest()
 		{
-			Assert.AreEqual(1, MainClass.Some);
+			Assert.AreEqual(2, MainClass.Some);
 		}
 	}
 }

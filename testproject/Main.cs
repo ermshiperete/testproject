@@ -53,6 +53,11 @@ namespace testproject
 		{
 			get { return 2; }
 		}
+
+		public static int Three
+		{
+			get { return 1; }
+		}
 		
 		public static void Main(string[] args)
 		{
