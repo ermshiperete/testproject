@@ -48,6 +48,12 @@ namespace testprojectTests
 		{
 			Assert.AreEqual(2, MainClass.Some);
 		}
+
+		[Test]
+		public void Three()
+		{
+			Assert.AreEqual(1, MainClass.Three);
+		}
 	}
 }
 
