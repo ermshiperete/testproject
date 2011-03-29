@@ -52,7 +52,7 @@ namespace testprojectTests
 		[Test]
 		public void Three()
 		{
-			Assert.AreEqual(1, MainClass.Three);
+			Assert.AreEqual(3, MainClass.Three);
 		}
 	}
 }
