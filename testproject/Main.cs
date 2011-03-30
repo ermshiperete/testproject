@@ -8,7 +8,6 @@ using System;
 
 namespace testproject
 {
-// Some changed comment
 	/// <summary>
 	/// Main class for testing
 	/// </summary>
