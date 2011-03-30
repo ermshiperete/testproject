@@ -6,6 +6,7 @@
 // </copyright>
 using System;
 
+// new comment
 namespace testproject
 {
 	/// <summary>
