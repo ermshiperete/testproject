@@ -7,6 +7,7 @@
 using System;
 
 // new comment
+// more comments
 namespace testproject
 {
 	/// <summary>
