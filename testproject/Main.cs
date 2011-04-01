@@ -8,6 +8,7 @@ using System;
 
 // new comment
 // more comments
+// third line with a comment
 namespace testproject
 {
 	class Base
