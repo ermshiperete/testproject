@@ -9,6 +9,8 @@ using System;
 // new comment
 // more comments
 // A comment from Windows
+// My change #1
+// another change
 namespace testproject
 {
 	/// <summary>
