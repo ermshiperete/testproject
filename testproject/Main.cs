@@ -18,10 +18,11 @@ namespace testproject
 	class MainClass
 	{
 		/// <summary>
-		/// Returns a arbitrary number
+		/// Returns an arbitrary number
 		/// </summary>
 		public static int Number()
 		{
+			// a different comment
 			return 8;
 		}
 
