@@ -22,6 +22,7 @@ namespace testproject
 		/// </summary>
 		public static int Number()
 		{
+			// a different comment
 			return 8;
 		}
 
