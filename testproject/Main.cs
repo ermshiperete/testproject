@@ -8,7 +8,6 @@ using System;
 
 // new comment
 // more comments
-// A comment from Windows
 namespace testproject
 {
 	/// <summary>
