@@ -8,6 +8,7 @@ using System;
 
 // new comment
 // more comments
+// additional comment
 namespace testproject
 {
 	/// <summary>
