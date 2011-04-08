@@ -10,6 +10,14 @@ using System;
 // more comments
 namespace testproject
 {
+	class Base
+	{
+		public virtual int Method()
+		{
+			return 7;
+		}
+	}
+
 	/// <summary>
 	/// Main class for testing
 	/// </summary>
