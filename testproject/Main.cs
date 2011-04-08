@@ -18,6 +18,14 @@ namespace testproject
 		}
 	}
 
+	class Derived: Base
+	{
+		public override int Method()
+		{
+			return 8;
+		}
+	}
+
 	/// <summary>
 	/// Main class for testing
 	/// </summary>
