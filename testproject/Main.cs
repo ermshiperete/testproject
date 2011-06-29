@@ -79,7 +79,7 @@ namespace testproject
 		
 		public static int New
 		{
-			get { return 4; }
+			get { return 5; }
 		}
 		
 		public static void Main(string[] args)
