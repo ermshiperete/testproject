@@ -77,6 +77,11 @@ namespace testproject
 			get { return 3; }
 		}
 		
+		public static int New
+		{
+			get { return 4; }
+		}
+		
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World!");
