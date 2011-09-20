@@ -14,7 +14,7 @@ namespace testproject
 	/// <summary>
 	/// Main class for testing
 	/// </summary>
-	class MainClass
+	public class MainClass
 	{
 		/// <summary>
 		/// Returns a arbitrary number
