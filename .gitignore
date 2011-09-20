@@ -2,3 +2,5 @@ bin/
 Output_/
 obj/
 *~
+*.userprefs
+*.pidb
