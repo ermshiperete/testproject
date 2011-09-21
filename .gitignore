@@ -4,3 +4,6 @@ obj/
 *~
 *.userprefs
 *.pidb
+_ReSharper.testproject/
+*.suo
+*.user
