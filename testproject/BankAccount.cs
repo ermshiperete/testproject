@@ -2,6 +2,9 @@ using System;
 
 namespace UnitTestingExamples.Library
 {
+	/// <summary>
+	/// Bank account.
+	/// </summary>
 	public class BankAccount
 	{
 		private double m_balance = 0.0;
