@@ -27,7 +27,7 @@ namespace UnitTestingExamples.Library
 		public void TransferFunds(BankAccount destination, double amount)
 		{
 			destination.Deposit(amount);
-			m_balance -= amount;
+			Withdraw(amount);
 		}
 	}
 }
