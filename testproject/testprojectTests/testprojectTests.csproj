@@ -35,13 +35,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\nunit\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="testproject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="testproject, Version=1.0.4280.23370, Culture=neutral, PublicKeyToken=null">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Output_\Debug\testproject.exe</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Test.cs" />
+    <Compile Include="BankAccountTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
