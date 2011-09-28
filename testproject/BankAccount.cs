@@ -15,5 +15,10 @@ namespace UnitTestingExamples.Library
 		{
 			get { return m_balance; }
 		}
+
+		public void Withdraw(double amount)
+		{
+			m_balance -= amount;
+		}
 	}
 }
