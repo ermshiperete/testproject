@@ -1,6 +1,7 @@
 #!/bin/sh
 # (c) 2015 SIL International
 # some change that got changed again
+# add a line
 
 # Environment settings for running TE
 #
