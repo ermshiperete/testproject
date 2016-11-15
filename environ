@@ -7,6 +7,7 @@
 #
 # Source this file in a shell and then run "mono TE.exe"
 
+[ -z "$MONO_PREFIX" ] && export MONO_PREFIX=/opt/mono-sil
 BASE=$(pwd)
 COM=$(dirname "${BASE}")/COM
 ARCH=$(uname -m)
