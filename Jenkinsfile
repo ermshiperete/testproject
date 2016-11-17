@@ -10,6 +10,7 @@ timestamps {
 
         stage('Build') {
             withEnv(["FWROOT=${WORKSPACE}"]) {
+				sh("env")
                 sh("./build.sh")
             }
         }
@@ -21,5 +22,9 @@ timestamps {
                     mono --debug nunit/nunit-console.exe Output_/Debug/*Tests.dll""")
             }
         }
+
+		if (JOB_BASE_NAME =~ "PR-") {
+			echo "We're a PR"
+		}
     }
 }
