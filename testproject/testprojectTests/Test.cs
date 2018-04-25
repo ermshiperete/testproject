@@ -13,6 +13,7 @@ namespace testprojectTests
 	[TestFixture]
 	public class Test
 	{
+		// Adding a comment
 		[Test]
 		public void TestCase()
 		{
