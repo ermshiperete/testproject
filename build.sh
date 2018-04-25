@@ -6,3 +6,5 @@ cd $FWROOT
 
 cd bld
 $FWROOT/nant/bin/nant -D:fwroot=$FWROOT testproject
+
+# Add comment
